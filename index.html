@@ -49,15 +49,15 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#exampleModal" role="button">Meet Your Shaka Soulmate</button></p>
+        <p><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#quizModal" role="button">Meet Your Shaka Soulmate</button></p>
       </div>
     </div>
     <!--Modal-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="quizModal" tabindex="-1" role="dialog" aria-labelledby="quizModalTitle" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Meet Your Shaka Soulmate</h5>
+            <h5 class="modal-title" id="quizModalTitle">Meet Your Shaka Soulmate</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -65,82 +65,80 @@
           <div class="modal-body">
             <div>
               <ol>
-                  <p class="quiz">I feel refreshed when...</p>
-                  <ul type="1">
-                    <li><label class="radioButtonPadding" for="power"><input id="power1" type="radio" name="question1" value="power"> I crush my workout</label></li>
-                    <li><label class="radioButtonPadding" for="lemon"><input id="lemon1" type="radio" name="question1" value="lemon"> I reconnect with nature</label></li>
-                    <li><label class="radioButtonPadding" for="guava"><input id="guava1" type="radio" name="question1" value="guava"> I explore somewhere new</label></li>
-                    <li><label class="radioButtonPadding" for="pineapple"><input id="pineapple1" type="radio" name="question1" value="pineapple"> I meditate</label></li>
-                  </ul>
-                  <p class="quiz">I am craving...</p>
-                  <ul type="2">
-                    <li><label class="radioButtonPadding" for="lemon"><input id="lemon2" type="radio" name="question2" value="lemon"> something sweet</label></li>
-                    <li><label class="radioButtonPadding" for="guava"><input id="guava2" type="radio" name="question2" value="guava"> something savory</label></li>
-                    <li><label class="radioButtonPadding" for="pineapple"><input id="pineapple2" type="radio" name="question2" value="pineapple"> something fresh</label></li>
-                    <li><label class="radioButtonPadding" for="power"><input id="power2" type="radio" name="question2" value="power"> an energy boost</label></li>
-                  </ul>
-                  <p class="quiz">I would describe myself as...</p>
-                  <ul type="3">
-                    <li><label class="radioButtonPadding" for="guava"><input id="guava3" type="radio" name="question3" value="guava"> quirky</label></li>
-                    <li><label class="radioButtonPadding" for="pineapple"><input id="pineapple3" type="radio" name="question3" value="pineapple"> charismatic</label></li>
-                    <li><label class="radioButtonPadding" for="power"><input id="power3" type="radio" name="question3" value="power"> strong</label></li>
-                    <li><label class="radioButtonPadding" for="lemon"><input id="lemon3" type="radio" name="question3" value="lemon"> kind</label></li>
-                  </ul>
-                  <p class="quiz">I never leave the house without...</p>
-                  <ul type="4">
-                    <li><label class="radioButtonPadding" for="lemon"><input id="lemon4" type="radio" name="question4" value="lemon"> a snack</label></li>
-                    <li><label class="radioButtonPadding" for="power"><input id="power4" type="radio" name="question4" value="power"> my water bottle</label></li>
-                    <li><label class="radioButtonPadding" for="guava"><input id="guava4" type="radio" name="question4" value="guava"> gum</label></li>
-                    <li><label class="radioButtonPadding" for="pineapple"><input id="pineapple4" type="radio" name="question4" value="pineapple"> a killer outfit</label></li>
-                  </ul>
+                <p class="quiz">I feel refreshed when...</p>
+                <ul type="1">
+                  <li><label class="radioButtonPadding" for="power"><input id="power1" type="radio" name="question1" value="power"> I crush my workout</label></li>
+                  <li><label class="radioButtonPadding" for="lemon"><input id="lemon1" type="radio" name="question1" value="lemon"> I reconnect with nature</label></li>
+                  <li><label class="radioButtonPadding" for="guava"><input id="guava1" type="radio" name="question1" value="guava"> I explore somewhere new</label></li>
+                  <li><label class="radioButtonPadding" for="pineapple"><input id="pineapple1" type="radio" name="question1" value="pineapple"> I meditate</label></li>
+                </ul>
+                <p class="quiz">I am craving...</p>
+                <ul type="2">
+                  <li><label class="radioButtonPadding" for="lemon"><input id="lemon2" type="radio" name="question2" value="lemon"> something sweet</label></li>
+                  <li><label class="radioButtonPadding" for="guava"><input id="guava2" type="radio" name="question2" value="guava"> something savory</label></li>
+                  <li><label class="radioButtonPadding" for="pineapple"><input id="pineapple2" type="radio" name="question2" value="pineapple"> something fresh</label></li>
+                  <li><label class="radioButtonPadding" for="power"><input id="power2" type="radio" name="question2" value="power"> an energy boost</label></li>
+                </ul>
+                <p class="quiz">I would describe myself as...</p>
+                <ul type="3">
+                  <li><label class="radioButtonPadding" for="guava"><input id="guava3" type="radio" name="question3" value="guava"> quirky</label></li>
+                  <li><label class="radioButtonPadding" for="pineapple"><input id="pineapple3" type="radio" name="question3" value="pineapple"> charismatic</label></li>
+                  <li><label class="radioButtonPadding" for="power"><input id="power3" type="radio" name="question3" value="power"> strong</label></li>
+                  <li><label class="radioButtonPadding" for="lemon"><input id="lemon3" type="radio" name="question3" value="lemon"> kind</label></li>
+                </ul>
+                <p class="quiz">I never leave the house without...</p>
+                <ul type="4">
+                  <li><label class="radioButtonPadding" for="lemon"><input id="lemon4" type="radio" name="question4" value="lemon"> a snack</label></li>
+                  <li><label class="radioButtonPadding" for="power"><input id="power4" type="radio" name="question4" value="power"> my water bottle</label></li>
+                  <li><label class="radioButtonPadding" for="guava"><input id="guava4" type="radio" name="question4" value="guava"> gum</label></li>
+                  <li><label class="radioButtonPadding" for="pineapple"><input id="pineapple4" type="radio" name="question4" value="pineapple"> a killer outfit</label></li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" id="submit" class="btn btn-secondary">Meet Your Shaka Soulmate</button>
+              </div>
+            </div>
           </div>
-          <div class="modal-footer">
-            <button type="button" id="submit" class="btn btn-secondary">Meet Your Shaka Soulmate</button>
+        </div>
+      </div>
+
+      <div class="modal fade" id="resultModalCenter" tabindex="-1" role="dialog" aria-labelled-by="resultModalCenter" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="resultModalCenter">Your Shaka Soulmate Is...</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true"><&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div id="result-display-here"></div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <div class="modal fade" id="resultModalCenter" tabindex="-1" role="dialog" aria-labelled-by="resultModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="resultModalCenterTitle">Your Shaka Soulmate Is...</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true"><&times;</span>
-          </button>
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md">
+            <h2>We craft every beverage with your health and happiness in mind.</h2>
+            <h3>That's why all of our products use only organic, sustainable ingredients that are uniquely crafted to deliver rich, satisfying flavors.</h3>
+            <p><img src="./images/mamaki.jpg" alt="beverage facts: zero carbs 0 calories 0 sugars"></p>
+            <h2>Zero compromise. Zero exceptions.</h2>
+          </div>
         </div>
-        <div class="modal=body">
-          <div id="result-display-here"></div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
-    <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md">
-          <h2>We craft every beverage with your health and happiness in mind.</h2>
-          <h3>That's why all of our products use only organic, sustainable ingredients that are uniquely crafted to deliver rich, satisfying flavors.</h3>
-          <p><img src="./images/mamaki.jpg" alt="beverage facts: zero carbs 0 calories 0 sugars"></p>
-          <h2>Zero compromise. Zero exceptions.</h2>
-        </div>
-      </div>
+      </div> <!-- /container -->
 
-      <hr>
+    </main>
 
-    </div> <!-- /container -->
-
-  </main>
-
-  <footer class="container">
-    <p>&copy; SHAKA 2020</p>
-  </footer>
-</body>
+    <footer class="container">
+      <p>&copy; SHAKA 2020</p>
+    </footer>
+  </body>
 
 </html>

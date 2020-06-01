@@ -1,69 +1,69 @@
 console.log('Hello from js/scripts.js!');
 
-let submitQ = document.getElementById("submitQ")
+let submit = document.getElementById("submit")
 var result = "";
 
-submitQ.onclick = function(){
+submit.onclick = function(){
 
   var powerScore = 0;
   var lemonScore = 0;
-  var guavaScore =0;
-  var pineappleScore=0;
+  var guavaScore = 0;
+  var pineappleScore = 0;
 
 //Question 1
   if(document.getElementById("power1").checked) {
-    tropScore++;
+    powerScore++;
   }
   if(document.getElementById("lemon1").checked) {
-    natScore++;
+    lemonScore++;
   }
   if(document.getElementById("guava1").checked) {
-    extScore++;
+    guavaScore++;
   }
   if(document.getElementById("pineapple1").checked) {
-    powerScore++;
+    pineappleScore++;
   }
 
   //Question 2
   if(document.getElementById("lemon2").checked) {
-    tropScore++;
+    lemonScore++;
   }
   if(document.getElementById("guava2").checked) {
-    natScore++;
+    guavaScore++;
   }
   if(document.getElementById("pineapple2").checked) {
-    extScore++;
+    pineappleScore++;
   }
   if(document.getElementById("power2").checked) {
-    extScore++;
+    powerScore++;
   }
 
   //Question 3
   if(document.getElementById("guava3").checked) {
-    tropScore++;
+    guavaScore++;
   }
   if(document.getElementById("pineapple3").checked) {
-    natScore++;
+    pineappleScore++;
   }
   if(document.getElementById("power3").checked) {
-    extScore++;
+    powerScore++;
   }
   if(document.getElementById("lemon3").checked) {
-    extScore++;
+    lemonScore++;
   }
 
   //Question 4
   if(document.getElementById("lemon4").checked) {
-    tropScore++;
+    lemonScore++;
   }
   if(document.getElementById("power4").checked) {
-    natScore++;
+    powerScore++;
   }
   if(document.getElementById("guava4").checked) {
-    extScore++;
+    guavaScore++;
   }
   if(document.getElementById("pineapple4").checked) {
-    extScore++;
+    pineappleScore++;
   }
 
 //Find largest of the scores
@@ -87,10 +87,10 @@ submitQ.onclick = function(){
     result = "power";
   }
 
-  $('#quizModalScrollable').modal('hide')
+  $("#quizModal").modal('hide')
 }
 
-$('#quizModalScrollable').on('hidden.bs.modal', function () {
+$("#quizModal").on('hidden.bs.modal', function () {
   // Load up a new modal...
   if (result != "") {
     $('#resultModalCenter').modal('show')
